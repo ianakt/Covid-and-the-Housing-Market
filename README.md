@@ -13,22 +13,22 @@ The John Hopkins Dataset
 We will use the Date, State, people_viral_positive, sections of the
 dictionairy for the purpose of showing the infection rate fpr a state
 
-  {
-    "date": 20200408,
-    "state": "AK",
-    "people_viral_positive": 226,
-    "tests_viral_positive": null,
-    "tests_viral_negative": null,
-    "encounters_viral_total": null,
-    "tests_viral_total": 7068,
-    "people_viral_total": null,
-    "tests_combined_total": 7068,
-    "cases_conf_probable": 226,
-    "people_antigen_positive": null,
-    "people_antigen_total": null,
-    "cases_confirmed": null,
-    "cases_probable": null
-  },
+	  {
+	    "date": 20200408,
+	    "state": "AK",
+	    "people_viral_positive": 226,
+	    "tests_viral_positive": null,
+	    "tests_viral_negative": null,
+	    "encounters_viral_total": null,
+	    "tests_viral_total": 7068,
+	    "people_viral_total": null,
+	    "tests_combined_total": 7068,
+	    "cases_conf_probable": 226,
+	    "people_antigen_positive": null,
+	    "people_antigen_total": null,
+	    "cases_confirmed": null,
+	    "cases_probable": null
+	  },
 
 
 NWSS_Public_SARS-CoV-2_Wastewater_Metric_Data
