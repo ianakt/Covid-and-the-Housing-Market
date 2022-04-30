@@ -35,47 +35,53 @@ NWSS_Public_SARS-CoV-2_Wastewater_Metric_Data
 
 
 We will look at the 
-ptc_15d (which stands for the 15 day percentage change in RNA levels)
-reporting jursdiction
-date_start
-date_end 
+	ptc_15d (which stands for the 15 day percentage change in RNA levels)
+	reporting jursdiction
+	date_start
+	date_end 
 
 Provisional_COVID-19_Deaths_by_Sex_and_Age
 
 We will look at the
 
-Start Date
-End Date
-Month
-Year
-State
-Sex
-Age Group
-COVID-19 Deaths 
-Total Deaths
-Pneumonia Deaths	
-Pneumonia and COVID-19 Deaths	
-Influenza Deaths	
-Pneumonia, Influenza, or COVID-19 Deaths
+	Start Date
+	End Date
+	Month
+	Year
+	State
+	Sex
+	Age Group
+	COVID-19 Deaths 
+	Total Deaths
+	Pneumonia Deaths	
+	Pneumonia and COVID-19 Deaths	
+	Influenza Deaths	
+	Pneumonia, Influenza, or COVID-19 Deaths
 
 
 Conditions_Contributing_to_COVID-19_Deaths__by_State_and_Age__Provisional_2020-2022
 
 We will use following columns
 	
-Group	
-Year	
-Month	
-State	
-Condition Group	Condition	
-COVID-19 Deaths	Number of Mentions	
+	Group	
+	Year	
+	Month	
+	State	
+	Condition Group	Condition	
+	COVID-19 Deaths	Number of Mentions	
 
 
-Covid Waste Water
+Columns of preliminary database: 
+	Year, 
+	Month, 
+	30 day average rna level, 
+	people_viral_positive, 
+	COVID-19 Deaths,
+	Pneumonia Deaths, 
+	Influenza Deaths, 
+	Covid-19 Deaths Mention, 
+	Condition
 
-https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Metric-Data/2ew6-ywp6
-
-![image](https://user-images.githubusercontent.com/68198233/165418800-78e1daa2-5167-4400-9e15-475f99f2ad00.png)
 
 For ML model 
 We will investigate whether a dataset showing the RNA levels of covid in waste water
