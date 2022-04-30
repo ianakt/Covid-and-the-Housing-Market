@@ -72,15 +72,15 @@ We will use following columns
 
 
 Columns of preliminary database: 
-	Year, 
-	Month, 
-	30 day average rna level, 
-	people_viral_positive, 
-	COVID-19 Deaths,
-	Pneumonia Deaths, 
-	Influenza Deaths, 
-	Covid-19 Deaths Mention, 
-	Condition
+		Year, 
+		Month, 
+		30 day average rna level, 
+		people_viral_positive, 
+		COVID-19 Deaths,
+		Pneumonia Deaths, 
+		Influenza Deaths, 
+		Covid-19 Deaths Mention, 
+		Condition
 
 
 For ML model 
