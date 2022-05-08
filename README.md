@@ -5,11 +5,11 @@
 
 Our journey so far....
 
-	We are in search of features that can predict covid cases in the short to medium term for a given period.
-	
-	One feature that we have selected so far is RNA concentration in wastewater, as you can see below there is a strong correlation between, RNA concentration and 		covid case population. 
-	
-	![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
+We are in search of features that can predict covid cases in the short to medium term for a given period.
+
+One feature that we have selected so far is RNA concentration in wastewater, as you can see below there is a strong correlation between, RNA concentration and 		covid case population. 
+
+![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
 
 
 
