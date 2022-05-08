@@ -2,95 +2,33 @@
 
 
 
-Ian:
 
+Our journey so far....
 
-Our Datasets and what our starting Database
-
-
-The John Hopkins Dataset
-
-We will use the Date, State, people_viral_positive, sections of the
-dictionairy for the purpose of showing the infection rate fpr a state
-
-	  {
-	    "date": 20200408,
-	    "state": "AK",
-	    "people_viral_positive": 226,
-	    "tests_viral_positive": null,
-	    "tests_viral_negative": null,
-	    "encounters_viral_total": null,
-	    "tests_viral_total": 7068,
-	    "people_viral_total": null,
-	    "tests_combined_total": 7068,
-	    "cases_conf_probable": 226,
-	    "people_antigen_positive": null,
-	    "people_antigen_total": null,
-	    "cases_confirmed": null,
-	    "cases_probable": null
-	  },
-
-
-NWSS_Public_SARS-CoV-2_Wastewater_Metric_Data
-
-
-We will look at the 
-	ptc_15d (which stands for the 15 day percentage change in RNA levels)
-	reporting jursdiction
-	date_start
-	date_end 
-
-Provisional_COVID-19_Deaths_by_Sex_and_Age
-
-We will look at the
-
-	Start Date
-	End Date
-	Month
-	Year
-	State
-	Sex
-	Age Group
-	COVID-19 Deaths 
-	Total Deaths
-	Pneumonia Deaths	
-	Pneumonia and COVID-19 Deaths	
-	Influenza Deaths	
-	Pneumonia, Influenza, or COVID-19 Deaths
-
-
-Conditions_Contributing_to_COVID-19_Deaths__by_State_and_Age__Provisional_2020-2022
-
-We will use following columns
+	We are in search of features that can predict covid cases in the short to medium term for a given period.
 	
-	Group	
-	Year	
-	Month	
-	State	
-	Condition Group	Condition	
-	COVID-19 Deaths	Number of Mentions	
+	One feature that we have selected so far is RNA concentration in wastewater, as you can see below there is a strong correlation between, RNA concentration and 		covid case population. 
+	
+	![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
 
 
-Columns of preliminary database: 
-		Year, 
-		Month, 
-		30 day average rna level, 
-		people_viral_positive, 
-		COVID-19 Deaths,
-		Pneumonia Deaths, 
-		Influenza Deaths, 
-		Covid-19 Deaths Mention, 
-		Condition
+
+Datasets:
+
+Biobot analytics RNA concentration in Waste water
+Biobot analytics cases per 100,000
 
 
-For ML model 
-We will investigate whether a dataset showing the RNA levels of covid in waste water
-can better predict the infection rate than a dataset that doesn't have the RNA levels
-of covid in waste water. 
+ML model:
+
+Our hope for our ML model is to see if we can predict covid cases over time using various features. For now we have loaded the covid cases per 100,000 (a univariate model) perhaps we will see some frequency over time using this alone. However we plan to have a multivariate ARIMA model that can predict covid over time. To test this we may use the year 2020 to predict 2021, seeing as that the covid pandemic is an ongoing crisis. more details to come
 
 
-Also we will understand the role of age, comorbidites, gender have on infection rate
-and morbidity rate. Are they multipliers, or do they hava negligble effect.
+Please look  at file Waste_water_group_by.ipynb for our ML model
+
+ARIMA model
+
+![image](https://user-images.githubusercontent.com/68198233/167315736-e1239822-d400-411b-b06b-efdee7e5ef73.png)
 
 
 
