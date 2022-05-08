@@ -107,3 +107,5 @@ This is my final project.
 John:
 
 Testing out commits
+
+Created the SQL database for the dataset. See code in repo
