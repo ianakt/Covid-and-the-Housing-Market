@@ -1,0 +1,107 @@
+ZIP Code,Classification,City,Population,Area Code(s)
+91901,General,Alpine,"17,403",619
+91902,General,Bonita,"17,653",619
+91905,General,Boulevard,"1,700",619/760
+91906,General,Campo,"3,627",619/858
+91910,General,Chula Vista,"75,802",619
+91911,General,Chula Vista,"82,999",619
+91913,General,Chula Vista,"40,971",619
+91914,General,Chula Vista,"15,448",619
+91915,General,Chula Vista,"24,659",619
+91916,General,Descanso,"1,622",619/858
+91917,General,Dulzura,992,619
+91931,P.O. Box,Guatay,592,619/858
+91932,General,Imperial Beach,"25,718",619
+91934,General,Jacumba,737,619
+91935,General,Jamul,"8,624",619
+91941,General,La Mesa,"31,779",619
+91942,General,La Mesa,"38,069",619
+91945,General,Lemon Grove,"25,460",619/858
+91948,P.O. Box,Mount Laguna,78,619/858
+91950,General,National City,"60,322",619
+91962,General,Pine Valley,"1,646",619/858
+91963,General,Potrero,"1,118",619
+91977,General,Spring Valley,"58,368",619
+91978,General,Spring Valley,"8,896",619
+91980,General,Tecate,165,619
+92003,General,Bonsall,"4,746",760/442
+92004,General,Borrego Springs,"3,881",760/442
+92007,General,Cardiff By The Sea,"10,429",760
+92008,General,Carlsbad,"27,649",760
+92009,General,Carlsbad,"40,747",760/442
+92010,General,Carlsbad,"14,382",442/760
+92011,General,Carlsbad,"22,405",442/760
+92014,General,Del Mar,"13,154",858
+92019,General,El Cajon,"42,598",619/858
+92020,General,El Cajon,"57,767",619/858
+92021,General,El Cajon,"65,068",619/858
+92024,General,Encinitas,"49,121",760/442
+92025,General,Escondido,"49,978",760/442
+92026,General,Escondido,"48,922",760/442
+92027,General,Escondido,"53,881",760/442
+92028,General,Fallbrook,"46,239",760/442
+92029,General,Escondido,"19,021",760/442
+92036,General,Julian,"3,440",760
+92037,General,La Jolla,"46,781",858
+92040,General,Lakeside,"41,281",619/858
+92054,General,Oceanside,"40,375",760/442
+92055,P.O. Box,Camp Pendleton,"15,655",760
+92056,General,Oceanside,"51,835",760/442
+92057,General,Oceanside,"54,096",760/442
+92058,General,Oceanside,"42,436",442/760
+92059,General,Pala,"1,618",442/760
+92060,P.O. Box,Palomar Mountain,218,442/760
+92061,General,Pauma Valley,"2,499",442/760
+92064,General,Poway,"47,904",858
+92065,General,Ramona,"35,414",760/442
+92066,General,Ranchita,378,760/442
+92067,P.O. Box,Rancho Santa Fe,"9,535",858
+92069,General,San Marcos,"46,369",760/442
+92070,General,Santa Ysabel,"1,245",760/442
+92071,General,Santee,"53,422",619
+92075,General,Solana Beach,"12,056",858
+92078,General,San Marcos,"42,906",760/442
+92081,General,Vista,"27,404",442/760
+92082,General,Valley Center,"19,037",760/442
+92083,General,Vista,"36,975",760/442
+92084,General,Vista,"47,654",760/442
+92086,General,Warner Springs,"1,573",760/442
+92091,General,Rancho Santa Fe,"1,048",858
+92101,General,San Diego,"37,095",619/858
+92102,General,San Diego,"43,267",619/858
+92103,General,San Diego,"31,066",619/858/760
+92104,General,San Diego,"44,414",619/858/760
+92105,General,San Diego,"69,813",619/858
+92106,General,San Diego,"19,330",619
+92107,General,San Diego,"28,651",619
+92108,General,San Diego,"18,858",858/619
+92109,General,San Diego,"45,787",619
+92110,General,San Diego,"25,341",619
+92111,General,San Diego,"45,096",858/619
+92113,General,San Diego,"56,066",619
+92114,General,San Diego,"65,433",619/858
+92115,General,San Diego,"58,560",619
+92116,General,San Diego,"31,680",619/858
+92117,General,San Diego,"51,332",858/619
+92118,General,Coronado,"23,575",619/858
+92119,General,San Diego,"23,057",619
+92120,General,San Diego,"26,317",619
+92121,General,San Diego,"4,179",858/619/760
+92122,General,San Diego,"43,728",858/619/760
+92123,General,San Diego,"26,823",858/619
+92124,General,San Diego,"30,443",619/858
+92126,General,San Diego,"73,343",858/619/760
+92127,General,San Diego,"39,337",858
+92128,General,San Diego,"47,490",858/619
+92129,General,San Diego,"51,536",858/619
+92130,General,San Diego,"48,940",858
+92131,General,San Diego,"32,787",858/619
+92134,Unique,San Diego,198,619/858
+92135,P.O. Box,San Diego,571,619
+92139,General,San Diego,"35,125",619
+92140,Unique,San Diego,"3,435",619/858/760
+92145,Unique,San Diego,"1,449",858/619/760
+92147,Unique,San Diego,559,619/858/760
+92154,General,San Diego,"79,708",619
+92155,Unique,San Diego,550,619/858
+92173,General,San Ysidro,"29,429",619
