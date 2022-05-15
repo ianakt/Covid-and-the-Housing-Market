@@ -9,14 +9,6 @@ Why did we do this?
 
 The Covid Pandemic is a major event that will define us for the rest of our lives. This is the time of our lives where we are transitioning to full adulthood, finally getting all of the worries, rewards, and responsobilities of this stage of development. A defining step of adulthood is owning your own home, which appears to be more difficult this time than in ages past. We would like to know if the housing market will follow the trends of covid cases, or follow historical trends of the housing market in the future. We will look at  how Covid Cases affected various elements of the housing market such as Sale to List Price, Housing Price, and Rent Price. Additionally we will see if employment affects the housing market.
 
-responsobilities
-starting a family
-owning a home
-owning a car
-
-
-historical developments
-
 
 
 
