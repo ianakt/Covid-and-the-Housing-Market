@@ -5,9 +5,17 @@
 
 Our journey so far....
 
-We are in search of features that can predict covid cases in the short to medium term for a given period.
+link to slides: https://docs.google.com/presentation/d/1fWEJO-d1I_VNijgDdGBT22hTEK-FKRyce9HMPWvdutk/edit?usp=sharing
 
-One feature that we have selected so far is RNA concentration in wastewater, as you can see below there is a strong correlation between, RNA concentration and 		covid case population. 
+What is our project about?
+
+How covid effected the home buying experience in San Diego between 2020 and 2022?
+
+Why did we do this?
+
+The Covid Pandemic is a major event that will define us for the rest of our lives. This is the time of our lives where we are transitioning to full adulthood, finally getting all of the worries, rewards, and responsobilities of this stage of development. A defining step of adulthood is owning your own home, which appears to be more difficult this time than in ages past. We would like to know if the housing market will follow the trends of covid cases, or follow historical trends of the housing market in the future. We will look at how Covid Cases affected various elements of the housing market such as Sale to List Price, Housing Price, and Rent Price. Additionally we will see if employment affects the housing market.
+
+We will be using Waste water data to account for the "real # of covid cases" seeing that asymptomatic people will be unlikely to get tested for covid, the covid concentration in waste water may be a usefull tool.
 
 ![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
 
@@ -21,10 +29,7 @@ Biobot analytics cases per 100,000
 
 ML model:
 
-Our hope for our ML model is to see if we can predict covid cases over time using various features. For now we have loaded the covid cases per 100,000 (a univariate model) perhaps we will see some frequency over time using this alone. However we plan to have a multivariate ARIMA model that can predict covid over time. To test this we may use the year 2020 to predict 2021, seeing as that the covid pandemic is an ongoing crisis. more details to come
 
-
-Please look  at file Waste_water_group_by.ipynb for our ML model
 
 ARIMA model
 
