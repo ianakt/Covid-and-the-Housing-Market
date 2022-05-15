@@ -52,3 +52,11 @@ https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
 
 
 This is my final project.
+
+Home Values for San Diego
+
+
+<img width="1129" alt="Screen Shot 2022-05-15 at 2 43 53 PM" src="https://user-images.githubusercontent.com/95302013/168488888-ca882961-5d9f-4470-8b0c-ecbc23a9cc3c.png">
+
+
+![newplot](https://user-images.githubusercontent.com/95302013/168488801-133cff21-0bf8-4ec6-b83e-ec125a480322.png)
