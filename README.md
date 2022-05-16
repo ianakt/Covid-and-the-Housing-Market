@@ -27,21 +27,15 @@ Biobot analytics RNA concentration in Waste water
 Biobot analytics cases per 100,000
 
 
-ML model:
+ML Model
 
+This is still under construction. For now our plan is to have univariate analysis on a few key features of the housing market, and covid cases. We will have a multivariate model, and see if it is better than the univariate. Our measure of understading if covid effected the housing market significantly is to see whether the univariate, or the multivariate model performs better. 1 indicator is shown below
 
+![image](https://user-images.githubusercontent.com/68198233/168510099-dc1340c3-1c6a-4b2c-bfad-0854c74b45d4.png)
 
-ARIMA model
+Dashboard
 
-![image](https://user-images.githubusercontent.com/68198233/167315736-e1239822-d400-411b-b06b-efdee7e5ef73.png)
-
-![image](https://user-images.githubusercontent.com/68198233/167316285-5a9b9051-1c14-4086-b78a-3d498e3f4b89.png)
-
-![image](https://user-images.githubusercontent.com/68198233/167316304-61ac293b-be2a-4b5a-a97c-5ba5ee75cca0.png)
-
-![image](https://user-images.githubusercontent.com/68198233/167316330-d114b8e0-31dc-4e45-9083-444693c385ed.png)
-
-
+![image](https://user-images.githubusercontent.com/68198233/168511680-6d9ec811-8297-4089-b3c5-a6e6bae94e28.png)
 
 
 Abhitesh:
