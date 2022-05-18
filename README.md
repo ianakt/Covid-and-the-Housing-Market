@@ -2,97 +2,40 @@
 
 
 
-Ian:
+
+Our journey so far....
+
+link to slides: https://docs.google.com/presentation/d/1fWEJO-d1I_VNijgDdGBT22hTEK-FKRyce9HMPWvdutk/edit?usp=sharing
+
+What is our project about?
+
+How covid effected the home buying experience in San Diego between 2020 and 2022?
+
+Why did we do this?
+
+The Covid Pandemic is a major event that will define us for the rest of our lives. This is the time of our lives where we are transitioning to full adulthood, finally getting all of the worries, rewards, and responsobilities of this stage of development. A defining step of adulthood is owning your own home, which appears to be more difficult this time than in ages past. We would like to know if the housing market will follow the trends of covid cases, or follow historical trends of the housing market in the future. We will look at how Covid Cases affected various elements of the housing market such as Sale to List Price, Housing Price, and Rent Price. Additionally we will see if employment affects the housing market.
+
+We will be using Waste water data to account for the "real # of covid cases" seeing that asymptomatic people will be unlikely to get tested for covid, the covid concentration in waste water may be a usefull tool.
+
+![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
 
 
-Our Datasets and what our starting Database
+
+Datasets:
+
+Biobot analytics RNA concentration in Waste water
+Biobot analytics cases per 100,000
 
 
-The John Hopkins Dataset
+ML Model
 
-We will use the Date, State, people_viral_positive, sections of the
-dictionairy for the purpose of showing the infection rate fpr a state
+This is still under construction. For now our plan is to have univariate analysis on a few key features of the housing market, and covid cases. We will have a multivariate model, and see if it is better than the univariate. Our measure of understading if covid effected the housing market significantly is to see whether the univariate, or the multivariate model performs better. 1 indicator is shown below
 
-	  {
-	    "date": 20200408,
-	    "state": "AK",
-	    "people_viral_positive": 226,
-	    "tests_viral_positive": null,
-	    "tests_viral_negative": null,
-	    "encounters_viral_total": null,
-	    "tests_viral_total": 7068,
-	    "people_viral_total": null,
-	    "tests_combined_total": 7068,
-	    "cases_conf_probable": 226,
-	    "people_antigen_positive": null,
-	    "people_antigen_total": null,
-	    "cases_confirmed": null,
-	    "cases_probable": null
-	  },
+![image](https://user-images.githubusercontent.com/68198233/168510099-dc1340c3-1c6a-4b2c-bfad-0854c74b45d4.png)
 
+Dashboard
 
-NWSS_Public_SARS-CoV-2_Wastewater_Metric_Data
-
-
-We will look at the 
-	ptc_15d (which stands for the 15 day percentage change in RNA levels)
-	reporting jursdiction
-	date_start
-	date_end 
-
-Provisional_COVID-19_Deaths_by_Sex_and_Age
-
-We will look at the
-
-	Start Date
-	End Date
-	Month
-	Year
-	State
-	Sex
-	Age Group
-	COVID-19 Deaths 
-	Total Deaths
-	Pneumonia Deaths	
-	Pneumonia and COVID-19 Deaths	
-	Influenza Deaths	
-	Pneumonia, Influenza, or COVID-19 Deaths
-
-
-Conditions_Contributing_to_COVID-19_Deaths__by_State_and_Age__Provisional_2020-2022
-
-We will use following columns
-	
-	Group	
-	Year	
-	Month	
-	State	
-	Condition Group	Condition	
-	COVID-19 Deaths	Number of Mentions	
-
-
-Columns of preliminary database: 
-		Year, 
-		Month, 
-		30 day average rna level, 
-		people_viral_positive, 
-		COVID-19 Deaths,
-		Pneumonia Deaths, 
-		Influenza Deaths, 
-		Covid-19 Deaths Mention, 
-		Condition
-
-
-For ML model 
-We will investigate whether a dataset showing the RNA levels of covid in waste water
-can better predict the infection rate than a dataset that doesn't have the RNA levels
-of covid in waste water. 
-
-
-Also we will understand the role of age, comorbidites, gender have on infection rate
-and morbidity rate. Are they multipliers, or do they hava negligble effect.
-
-
+![image](https://user-images.githubusercontent.com/68198233/168511680-6d9ec811-8297-4089-b3c5-a6e6bae94e28.png)
 
 
 Abhitesh:
@@ -104,8 +47,8 @@ https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
 
 This is my final project.
 
-John:
+Home Values for San Diego
 
-Testing out commits
 
-Created the SQL database for the dataset. See code in repo
+<img width="1129" alt="Screen Shot 2022-05-15 at 2 43 53 PM" src="https://user-images.githubusercontent.com/95302013/168488888-ca882961-5d9f-4470-8b0c-ecbc23a9cc3c.png">
+
