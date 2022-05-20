@@ -15,11 +15,6 @@ Why did we do this?
 
 The Covid Pandemic is a major event that will define us for the rest of our lives. This is the time of our lives where we are transitioning to full adulthood, finally getting all of the worries, rewards, and responsobilities of this stage of development. A defining step of adulthood is owning your own home, which appears to be more difficult this time than in ages past. We would like to know if the housing market will follow the trends of covid cases, or follow historical trends of the housing market in the future. We will look at how Covid Cases affected various elements of the housing market such as Sale to List Price, Housing Price, and Rent Price. Additionally we will see if employment affects the housing market.
 
-We will be using Waste water data to account for the "real # of covid cases" seeing that asymptomatic people will be unlikely to get tested for covid, the covid concentration in waste water may be a usefull tool.
-
-![image](https://user-images.githubusercontent.com/68198233/167315921-0b188b3a-68a8-4178-a8b0-7254a352d8ae.png)
-
-
 
 Datasets:
 
