@@ -48,6 +48,12 @@ In this model, Unemployment is used as a covariate to predict the value of the h
       SD_Unemployment_series = TimeSeries.from_dataframe(SD_Unemployment_to_series)
       SD_Value_series = TimeSeries.from_dataframe(SD_Value_to_series)
 
+The training data was split by year, the training data set is pre 2016, and the values to predict are post 2016, also covariates were used as a supplement to the training dataset as future covariates. Within the darts library, future covariates are values that cover the same time span as dataset used as train test. 
+
+![image](https://user-images.githubusercontent.com/68198233/169725363-38a97fda-7ee6-4512-bebb-efa53e971059.png)
+
+
+
 ![Home Value Index Prophet Forecast using San Diego Unemployment as a covariate](https://user-images.githubusercontent.com/68198233/169723874-42ef036d-65a3-4509-a416-abebfc00039e.png)
 
 
