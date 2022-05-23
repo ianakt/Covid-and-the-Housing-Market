@@ -34,25 +34,25 @@ Home_values = Home_values.drop(columns = "Date")
 Home_values = Home_values.rename(columns = {"Dates" : "Date"})
 
 
-# Added "Dates" Column that shows the month and year of each value e.g. 2020-01 
-SD_employ_fixing.insert(0, "Dates", pd.to_datetime(SD_employ_fixing["Date"]).dt.to_period('M'), True)
-# Drop date column, this date column came with the data
-SD_employ_fixing = SD_employ_fixing.drop(columns = "Date")
-# rename new "Dates" column to "Date"
-SD_employ_fixing = SD_employ_fixing.rename(columns = {"Dates" : "Date"})
-# Merged Home_values and SD_employ to 1 tablw
-SD_em_HV = SD_employ_fixing.merge(Home_values, how = "inner", on = "Date")
-# changed "Date" column to time stamp in preparation for the ML Model
-SD_em_HV = SD_em_HV.set_index("Date").to_timestamp()
+    # Added "Dates" Column that shows the month and year of each value e.g. 2020-01 
+    SD_employ_fixing.insert(0, "Dates", pd.to_datetime(SD_employ_fixing["Date"]).dt.to_period('M'), True)
+    # Drop date column, this date column came with the data
+    SD_employ_fixing = SD_employ_fixing.drop(columns = "Date")
+    # rename new "Dates" column to "Date"
+    SD_employ_fixing = SD_employ_fixing.rename(columns = {"Dates" : "Date"})
+    # Merged Home_values and SD_employ to 1 tablw
+    SD_em_HV = SD_employ_fixing.merge(Home_values, how = "inner", on = "Date")
+    # changed "Date" column to time stamp in preparation for the ML Model
+    SD_em_HV = SD_em_HV.set_index("Date").to_timestamp()
 
-# Made a dataframe for each column of "SD_em_HV"
-SD_Unemployment_to_series = pd.DataFrame(SD_em_HV["Unemployment Rate"])
-SD_Value_to_series = pd.DataFrame(SD_em_HV["Home Value Index"])
+    # Made a dataframe for each column of "SD_em_HV"
+    SD_Unemployment_to_series = pd.DataFrame(SD_em_HV["Unemployment Rate"])
+    SD_Value_to_series = pd.DataFrame(SD_em_HV["Home Value Index"])
 
 
-# Changed to a time series
-SD_Unemployment_series = TimeSeries.from_dataframe(SD_Unemployment_to_series)
-SD_Value_series = TimeSeries.from_dataframe(SD_Value_to_series)
+    # Changed to a time series
+    SD_Unemployment_series = TimeSeries.from_dataframe(SD_Unemployment_to_series)
+    SD_Value_series = TimeSeries.from_dataframe(SD_Value_to_series)
 
 ![Home Value Index Prophet Forecast using San Diego Unemployment as a covariate](https://user-images.githubusercontent.com/68198233/169723874-42ef036d-65a3-4509-a416-abebfc00039e.png)
 
